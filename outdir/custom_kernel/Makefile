@@ -1,12 +1,12 @@
-NAME ?= Hot4pro.N7x
+NAME ?= Hot4pro.Oreo
 
-VERSION ?= 7.x
+VERSION ?= 8.x
 
 DATE := $(shell date +'%Y%m%d-%H%M')
 
 ZIP := $(NAME)-$(VERSION)-$(DATE).zip
 
-EXCLUDE := Makefile README.md *.git* Hot4pro.N7x*.zip *sha1
+EXCLUDE := Makefile README.md *.git* Hot4pro.Oreo*.zip *sha1
 
 all: $(ZIP)
 
