@@ -61,7 +61,7 @@ cd custom_kernel
     else
     make
     mkdir -p out_done
-    cp Hot4pro.N7x*zip* out_done
+    cp Hot4pro.Oreo*zip* out_done
     cd ../../
     sleep 0.6;
     echo ""
@@ -76,7 +76,7 @@ cd custom_kernel
     echo "          Uploading Blaze™ Kernel as zip...          "
     echo -e "***********************************************$nocol"
     echo ""
-    curl --upload-file outdir/custom_kernel/out_done/Hot4pro.N7x*.zip https://transfer.sh/Hot4pro.N7x_Nougat_$BUILD_START.zip
+    curl --upload-file outdir/custom_kernel/out_done/Hot4pro.Oreo*.zip https://transfer.sh/Hot4pro.Oreo_8.x_$BUILD_START.zip
     echo ""
     echo ""
     echo " Uploading Done !!!"
