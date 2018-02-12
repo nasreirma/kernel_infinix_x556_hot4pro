@@ -20,8 +20,8 @@ mkdir -p outdir
 export ARCH=arm64
 export ARCH_MTK_PLATFORM=mt6735
 export CROSS_COMPILE=/datadrive2/android/repos/kernel/toolchain-4.9/bin/aarch64-linux-android-
-export KBUILD_BUILD_USER="izaqKull"
-export KBUILD_BUILD_HOST="OS-X-devStudio"
+export KBUILD_BUILD_USER="nassreirma™"
+export KBUILD_BUILD_HOST="Deepin-OS"
 
 
 compile_kernel ()
